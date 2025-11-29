@@ -25,7 +25,7 @@
 ```
 @pytest.mark.django_db
 def test_create_todolist_via_form():
-    """Создание списка задач через HTML-форму"""
+    """Создание списка задач """
     User = get_user_model()
     user = User.objects.create_user(username="bob", password="pass123")
 
